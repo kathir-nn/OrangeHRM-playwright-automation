@@ -1,0 +1,18 @@
+{
+    
+    "invalidPassword":{
+        "username":"Admin",
+        "password":"InvalidPassword",
+        "expectedError":"Invalid credentials"
+    },
+    "invalidUsername":{
+        "username":"InvalidUser",
+        "password":"admin123",
+        "expectedError":"Invalid credentials"
+    },
+    "invalidUsernameANDPassword":{
+        "username":"InvalidUser",
+        "password":"InvalidPassword",
+        "expectedError":"Invalid credentials"
+    }
+}
